@@ -48,19 +48,19 @@ const TavernaCapodanno = () => {
   const [numTeams, setNumTeams] = useState(2);
   const [teams, setTeams] = useState([]);
   const [judge, setJudge] = useState(null);
-  //const [gameScores, setGameScores] = useState({});
+  const [gameScores, setGameScores] = useState({});
 
 
 
   const tabs = ['proclama', 'convitati', 'Ingresso al Convivio', 'vivande', 'giochi', 'Danze di Stelle e Fuochi', 'dispaccio'];
 
-  //const allParticipants = [
-  //  "Madonna Alessandra", "Madonna Cristiana", "Madonna Fabiola",
-  //  "Madonna Romina", "Madonna Gloria", "Madonna Sara",
-  //  "Madonna Valentina", "Ser Vito", "Ser Mars", "Ser Mino",
-  //  "Ser Pier Paolo", "Ser Francesco", "Ser Matteo H",
-  //  "Ser Matteo M", "Madonna Federica", "Madonna Elisa", "Sir Antonello",
-  //];
+  const allParticipants = [
+    "Madonna Alessandra", "Madonna Cristiana", "Madonna Fabiola",
+    "Madonna Romina", "Madonna Gloria", "Madonna Sara",
+    "Madonna Valentina", "Ser Vito", "Ser Mars", "Ser Mino",
+    "Ser Pier Paolo", "Ser Francesco", "Ser Matteo H",
+    "Ser Matteo M", "Madonna Federica", "Madonna Elisa", "Sir Antonello",
+  ];
 
   const generateTeams = () => {
     // Definizione dei partecipanti
@@ -734,7 +734,6 @@ const TavernaCapodanno = () => {
                     </div>
                     <div className="flex-1 h-[160px]">
                       <iframe
-                        title='Mappa Taverna'
                         width="100%"
                         height="70%"
                         frameBorder="0"

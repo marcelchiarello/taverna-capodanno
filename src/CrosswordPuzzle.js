@@ -26,9 +26,6 @@ const FILMS_DATA = [
 
 const CrosswordPuzzle = () => {
 
-    const coords = `${laNumbers.slice(0,2)}.${laNumbers.slice(2)},${loNumbers.slice(0,2)}.${loNumbers.slice(2)}`;
-    navigator.clipboard.writeText(coords);
-  };
   const [gridValues, setGridValues] = useState({});
   const [highlightedLetters, setHighlightedLetters] = useState({ LA: [], LO: [] });
   const [showNumbers, setShowNumbers] = useState(false);
