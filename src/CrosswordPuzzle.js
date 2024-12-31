@@ -25,14 +25,6 @@ const FILMS_DATA = [
 ];
 
 const CrosswordPuzzle = () => {
-  const copyToClipboard = () => {
-    const laNumbers = highlightedLetters.LA.map(l => LETTER_TO_NUMBER[l] || '_').join('');
-    const loNumbers = highlightedLetters.LO.map(l => LETTER_TO_NUMBER[l] || '_').join('');
-    
-    if (laNumbers.includes('_') || loNumbers.includes('_')) {
-      alert('Completa prima tutte le coordinate');
-      return;
-    }
 
     const coords = `${laNumbers.slice(0,2)}.${laNumbers.slice(2)},${loNumbers.slice(0,2)}.${loNumbers.slice(2)}`;
     navigator.clipboard.writeText(coords);
