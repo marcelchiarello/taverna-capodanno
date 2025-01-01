@@ -269,10 +269,10 @@ const TavernaCapodanno = () => {
           {activeTab === 'proclama' && (
 
             <div className="space-y-6 animate-fadeIn">
-              <h3 className="text-3xl font-medieval text-gold-300 mb-6">Amuleto Sacro</h3>
+              <h3 className="text-3xl font-medieval text-gold-300 mb-6">Amuleto Sacro!</h3>
               <p className="text-lg leading-relaxed text-gold-200">
                 A partire dalle <span className="text-party-100">15:30 del 31 dicembre</span>, i nobili convitati potranno recuperare l’Amuleto Sacro, essenziale per accedere alla Taverna.
-                Vi invitiamo a consultare la sezione <button onClick={() => setActiveTab('Ingresso al Convivio')} className="text-party-100 hover:text-party-200 underline">'Ingresso al Convivio'</button>, dove troverete l’enigma necessario per svelare il luogo magico e ottenere la parola d’ordine.
+                Vi invitiamo a  consultare la sezione <button onClick={() => setActiveTab('Ingresso al Convivio')} className="text-party-100 hover:text-party-200 underline">'Ingresso al Convivio'</button>, dove troverete l’enigma necessario per svelare il luogo magico e ottenere la parola d’ordine.
                 Presentate tale reliquia al momento del vostro ingresso per varcare la soglia del convivio.
               </p>
               <h3 className="text-3xl font-medieval text-gold-300 mb-6">Programma della Serata</h3>
