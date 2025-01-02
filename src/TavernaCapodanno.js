@@ -334,7 +334,7 @@ const TavernaCapodanno = () => {
               {/* Conclusione */}
               <div className="bg-blue-900/20 p-6 rounded-lg">
                 <p className="text-lg leading-relaxed text-gold-200 mb-4">
-                  Che questo nuovo anno porti a tutti voi la stessa gioia che illumina le nostre riunioni, la stessa allegria che risuona nelle nostre risate, e la capacità di trovare la magia anche nell'imperfezione dei nostri piani.
+                  Che questo nuovo anno porti a tutti voi la stessa gioia che ha illuminato il nostro convivio e la capacità di trovare la magia anche nell'imperfezione dei nostri piani.
                 </p>
                 <p className="text-lg font-medieval text-gold-300">
                   Ad Majora, nobili anime della Taverna! 📯
