@@ -267,8 +267,80 @@ const TavernaCapodanno = () => {
         <div className={`bg-blue-950/50 backdrop-blur-sm rounded-lg p-8 border border-gold-200/20 transition-opacity duration-300 ${isTransitioning ? 'opacity-0' : 'opacity-100'
           }`}>
           {activeTab === 'proclama' && (
-
             <div className="space-y-6 animate-fadeIn">
+
+              <h3 className="text-3xl font-medieval text-gold-300 mb-6 text-center">Proclama di Fine Anno</h3>
+
+              {/* Introduzione */}
+              <div className="bg-blue-900/20 p-6 rounded-lg">
+                <p className="text-lg leading-relaxed text-gold-200 mb-4">
+                  📯 <span className="font-medieval text-gold-300">O NOBILI CONVITATI DELLA QUARTA INCARNAZIONE!</span>
+                </p>
+                <p className="text-lg leading-relaxed text-gold-200 mb-4">
+                  Le stelle hanno ormai concluso la loro danza nel firmamento, e la Taverna ha accolto nelle sue sacre sale un altro memorabile convivio. Come nelle più nobili tradizioni della nostra dimora, i festeggiamenti hanno seguito il loro corso naturale, poiché i programmi prestabiliti sono meri suggerimenti per il destino, che poi tesse la sua trama secondo il proprio disegno.
+                </p>
+                <p className="text-lg leading-relaxed text-gold-200">
+                  Le libagioni sono state degne delle più raffinate corti del Regno, mentre i giochi hanno creato nuove alleanze e immortali momenti di ilarità. Lo spettacolo pirotecnico, seppur contrastato da una guerra incrociata con il reame confinante, ha visto i nostri prodi <span className="text-party-100">Ser Pier Paolo, Ser Vito e Ser Matteo M</span> difendere valorosamente l'onore della Taverna nonostante il ridotto armamentario.
+                </p>
+              </div>
+
+              {/* Proclamazione Vincitori */}
+              <div className="bg-blue-900/20 p-6 rounded-lg">
+                <h4 className="text-xl font-medieval text-gold-300 mb-6">Ed ora, proclamiamo i vincitori dei Nobili Passatempi, la cui gloria risuonerà nei secoli:</h4>
+
+                {/* Il Sussurro oltre l'Elmo Magico */}
+                <div className="mb-8">
+                  <h5 className="text-lg font-medieval text-party-100 mb-4">🎭 Il Sussurro oltre l'Elmo Magico (gioco con le cuffie)</h5>
+                  <p className="text-gold-200 italic mb-4">
+                    In questo nobile cimento, ove i partecipanti, forse intimoriti dalle generose libagioni dell'aperitivo e da tempistiche non proprio degne degli orologi reali, hanno comunque mostrato mirabile maestria nel leggere le labbra nelle condizioni più impervie:
+                  </p>
+                  <ul className="space-y-2 text-gold-200">
+                    <li><span className="text-party-100">Madonna Valentina</span> - "L'Elmo del Dialetto Salentino DOC" per aver dimostrato che la lingua natia si legge anche nelle tenebre più fitte e con l'udito celato</li>
+                    <li><span className="text-party-100">Ser Matteo M</span> - "L'Orecchio Dorato del Silenzioso" per aver trionfato proprio quando le melodie tacevano</li>
+                    <li><span className="text-party-100">Madonna Romina</span> - "Il Sacro Diadema dell'Interpretazione" per l'immortale lettura di "Mino Aperto"</li>
+                    <li><span className="text-party-100">Madonna Elisa</span> - "Lo Scettro dell'Integrità" per aver fermato i giochi quando la musica sussurrava troppo piano</li>
+                  </ul>
+                </div>
+
+                {/* La Danza del Quadrato Magico */}
+                <div className="mb-8">
+                  <h5 className="text-lg font-medieval text-party-100 mb-4">🎪 La Danza del Quadrato Magico</h5>
+                  <ul className="space-y-2 text-gold-200">
+                    <li><span className="text-party-100">Madonna Cristiana e Madonna Valentina</span> - "La Corona dei Passi Eterei" per la prestazione più aggraziata nel quadrato incantato</li>
+                    <li><span className="text-party-100">Ser Matteo H</span> - "La Bussola dello Sconfinato" per aver esplorato ogni angolo del reame, fermato solo dalle mura ancestrali della Taverna</li>
+                    <li><span className="text-party-100">Ser Pier</span> - "Lo Specchio del Furbetto Smascherato" per il tentativo di aprire gli occhi furtivamente, immortalato dalle arti magiche della registrazione</li>
+                  </ul>
+                </div>
+
+                {/* La Catena dei Prodigi */}
+                <div className="mb-8">
+                  <h5 className="text-lg font-medieval text-party-100 mb-4">⚔️ La Catena dei Prodigi(gioco del mimo)</h5>
+                  <ul className="space-y-2 text-gold-200">
+                    <li><span className="text-party-100">Ser Matteo M e Madonna Fabiola</span> - "L'Amuleto della Trasformazione" per aver mutato la danza prestabilita in una nuova forma d'arte nel mezzo dell'esibizione</li>
+                  </ul>
+                </div>
+
+                {/* La Raccolta dei Calici Sacri */}
+                <div className="mb-8">
+                  <h5 className="text-lg font-medieval text-party-100 mb-4">🏆 La Raccolta dei Calici Sacri (bicchieri e palline)</h5>
+                  <ul className="space-y-2 text-gold-200">
+                    <li><span className="text-party-100">Madonna Romina</span> - "Il Fischietto Storto ma Vittorioso" per aver conquistato la gloria nonostante uno strumento magico non proprio allineato con le stelle</li>
+                    <li><span className="text-party-100">Ser Pier</span> - "Il Flauto dell'Intrattenitore Notturno" per aver trasformato il fischietto da strumento di gara a delizia per le orecchie dei convitati</li>
+                    <li><span className="text-party-100">Ser Francesco</span> - "Il Calice dell'Esultanza Prematura" per la più ardita proclamazione di vittoria mai vista, con ancora metà della missione da compiere</li>
+                  </ul>
+                </div>
+              </div>
+
+              {/* Conclusione */}
+              <div className="bg-blue-900/20 p-6 rounded-lg">
+                <p className="text-lg leading-relaxed text-gold-200 mb-4">
+                  Che questo nuovo anno porti a tutti voi la stessa gioia che illumina le nostre riunioni, la stessa allegria che risuona nelle nostre risate, e la capacità di trovare la magia anche nell'imperfezione dei nostri piani.
+                </p>
+                <p className="text-lg font-medieval text-gold-300">
+                  Ad Majora, nobili anime della Taverna! 📯
+                </p>
+              </div>
+
               <h3 className="text-3xl font-medieval text-gold-300 mb-6">Amuleto Sacro!</h3>
               <p className="text-lg leading-relaxed text-gold-200">
                 A partire dalle <span className="text-party-100">15:30 del 31 dicembre</span>, i nobili convitati potranno recuperare l’Amuleto Sacro, essenziale per accedere alla Taverna.
